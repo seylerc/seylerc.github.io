@@ -1,80 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>DUSC</title>
 <meta charset="UTF-8">
 <meta name="author" content="Caroline Seyler">
 <meta name="description" content="Rock Deformation Lab at USC, PI Caroline Seyler">
 <meta name="keywords" content="DUSC,Rock Deformation at USC,Caroline Seyler,Geology,Caroline,Seyler,Rock Deformation,Faults,Fault Zones,Shear Zones,Subduction,Earthquakes,Friction,Structural Geology,Rock Mechanics,Dislocations,Creep"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DUSC</title>
+
+<!-- google fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!-- style setup -->
 <style>
-body {background-color: white;}
+body {
+      background-color: white;
+      margin: 0;
+      font-family: "Open Sans", sans-serif;
+      color: black;
+      line-height: 1.6;
+    }
+    
+header {
+	text-align: center;
+	padding: 0.5rem 0.5rem;
+	}
 
-h1 {font-family: "Perpetua", serif;
-	color: black;
-	letter-spacing: 6px;}
-h2 {font-family: "Perpetua", serif;
-	color: black;}
-h3 {font-family: "Open Sans", sans-serif;
-	color: black;
+h1 {
+	font-family: "Perpetua", serif;
+	letter-spacing: 6px;
+	}
+	
+h2 {
+	text-align: center;
+	font-family: "Perpetua", serif;
+	}
+	
+h3 {
+	font-family: "Open Sans", sans-serif;
 	margin-top: 0;
-	margin-bottom: 1;
+	margin-bottom: 1.0rem;
 	margin-left: 0;
 	margin-right: 0;
 	text-align: left;
-	vertical-align: top;}
-	
-a {text-decoration: none;
-  color: #B3B3B3;}
-a:hover {color: #990000;}
+	vertical-align: top;
+	}
 
-p {font-family: "Open Sans", sans-serif;
-	color: black;
-	width: 750px;
-	margin: auto;}
+a {
+	text-decoration: none;
+  color: #B3B3B3;
+  }
+  
+a:hover {
+	color: #990000;
+	}
 	
-td {font-family: "Open Sans", sans-serif;
-	color: black;
-	text-align: justify;
-	vertical-align: top;}
-
-.navbar {
-	text-align: center;
-	font-family: "Open Sans", sans-serif;
-}
+nav {
+	margin-top: 1rem;
+	}
 	
-.footer {
+footer {
 	font-family: "Courier New", Monospace;
 	font-size: 10px;
+	text-align: center;
+	padding: 2rem 0;
 	color: black;
-}
+	}
+	
+img {
+	width: 250px;
+	height: 250px; 
+	}
+	
+table {
+	max-width: 750px; 
+	margin-left: auto;
+	margin-right: auto; 
+	}
+	
+td {
+	border: 0px solid black;
+	padding: 15px;
+	vertical-align: top;
+	text-align: justify;
+	line-height: 1.4; 
+	}
 </style>
 </head>
 
 <!-- header -->
 <body>
-<center>
-<h1>ROCK DEFORMATION @ USC</h1>
-<div class="navbar">
-  <a href="index.html">HOME</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
-  <a href="research.html">RESEARCH</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
-  <a href="team.html">TEAM</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
-  <a href="fieldtrips.html">FIELD TRIPS</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
-  <a href="https://scholar.google.com/citations?user=Ew_S93wAAAAJ&hl=en">GOOGLE SCHOLAR</a>
-</div>
-</center>
+<header>
+	<h1>ROCK DEFORMATION @ USC</h1>
+	<nav>
+	  <a href="index.html">HOME</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
+	  <a href="team.html">TEAM</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
+	  <a href="research.html">RESEARCH</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
+	  <a href="fieldtrips.html">FIELD TRIPS</a> &nbsp;<span style="color: #B3B3B3";>&#8226;</span>&nbsp;
+	  <a href="https://scholar.google.com/citations?user=Ew_S93wAAAAJ&hl=en">GOOGLE SCHOLAR</a>
+	</nav>
+</header>
 
 <!-- page content -->
-<br>
-<center><h2>research projects</h2></center>
-<center><table border=0 cellpadding=10 width=750>
+<main>
+<h2>research projects</h2>
+
+<table>
 <tr>
 	<td><img height=250 width=250 src="images/amp.jpg"></td>
 	<td>
@@ -127,16 +161,12 @@ td {font-family: "Open Sans", sans-serif;
 		<i>Find out more in <a href="https://doi.org/10.1016/j.epsl.2020.116413" target="_blank">Seyler et al. (2020) EPSL</a>.</i>
 	</td>
 </tr>
-</table></center>
-<br>
-<br>
+</table>
 
 <!-- footer -->
-<center>
-<div class="footer">
-  <i>-- <script language="JavaScript" type="text/javascript">document.writeln("Last update: "+document.lastModified); </script></i><br><br>
-</div>
-</center>
+<footer>
+  <i>-- <script language="JavaScript" type="text/javascript">document.writeln("Last update: "+document.lastModified); </script></i>
+</footer>
 
 </body>
 </html>
